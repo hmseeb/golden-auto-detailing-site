@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Golden Auto Detailing – Professional car detailing services. Call (402) 875-1369 for a free quote." />
+  <meta name="keywords" content="auto detailing, car detailing, Golden Auto Detailing, car wash, paint correction, ceramic coating" />
+  <meta property="og:title" content="Golden Auto Detailing" />
+  <meta property="og:description" content="Professional auto detailing services. Call (402) 875-1369." />
+  <meta property="og:type" content="website" />
+  <title>Golden Auto Detailing | Professional Car Detailing Services</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#hero" class="nav__logo">
+        <span class="logo-icon">&#9733;</span>
+        Golden Auto Detailing
+      </a>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#why-us">Why Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="tel:4028751369" class="btn btn--sm btn--primary">Call Now</a></li>
+      </ul>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero__bg">
+      <img
+        src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=1920&q=80&auto=format&fit=crop"
+        alt="Professional detailer polishing a luxury car to a brilliant shine"
+        class="hero__img"
+        loading="eager"
+      />
+      <div class="hero__overlay"></div>
+    </div>
+    <div class="hero__content container">
+      <span class="hero__badge">Professional Auto Detailing</span>
+      <h1 class="hero__title">Your Car Deserves <span class="text-gold">the Best</span></h1>
+      <p class="hero__subtitle">
+        Premium detailing services that restore showroom brilliance — inside and out.
+        Serving the area with unmatched attention to detail.
+      </p>
+      <div class="hero__ctas">
+        <a href="tel:4028751369" class="btn btn--primary btn--lg">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>
+          Call (402) 875-1369
+        </a>
+        <a href="#services" class="btn btn--outline btn--lg">View Services</a>
+      </div>
+    </div>
+    <a href="#services" class="hero__scroll" aria-label="Scroll down">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="24" height="24"><path d="M6 9l6 6 6-6"/></svg>
+    </a>
+  </section>
+
+  <!-- ===== STATS BAR ===== -->
+  <section class="stats">
+    <div class="container stats__grid">
+      <div class="stat">
+        <span class="stat__num">500+</span>
+        <span class="stat__label">Cars Detailed</span>
+      </div>
+      <div class="stat">
+        <span class="stat__num">100%</span>
+        <span class="stat__label">Satisfaction Guaranteed</span>
+      </div>
+      <div class="stat">
+        <span class="stat__num">5★</span>
+        <span class="stat__label">Average Rating</span>
+      </div>
+      <div class="stat">
+        <span class="stat__num">Same-Day</span>
+        <span class="stat__label">Service Available</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="services section" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">What We Offer</span>
+        <h2 class="section-title">Our Detailing Services</h2>
+        <p class="section-subtitle">From a quick exterior refresh to a full-detail restoration, we have a package for every vehicle and budget.</p>
+      </div>
+
+      <div class="services__grid">
+
+        <div class="service-card">
+          <div class="service-card__img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1601362840469-51e4d8d58785?w=600&q=80&auto=format&fit=crop"
+              alt="Exterior hand wash and wax detailing service on a gleaming black car"
+              class="service-card__img"
+              loading="lazy"
+            />
+          </div>
+          <div class="service-card__body">
+            <h3 class="service-card__title">Exterior Detail</h3>
+            <p class="service-card__desc">
+              Hand wash, clay bar treatment, machine polish, and protective wax or sealant application to restore and protect your vehicle's paint.
+            </p>
+            <a href="tel:4028751369" class="btn btn--ghost">Get a Quote &rarr;</a>
+          </div>
+        </div>
+
+        <div class="service-card service-card--featured">
+          <span class="service-card__badge">Most Popular</span>
+          <div class="service-card__img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=600&q=80&auto=format&fit=crop"
+              alt="Full interior detailing including vacuuming, shampooing, and leather conditioning"
+              class="service-card__img"
+              loading="lazy"
+            />
+          </div>
+          <div class="service-card__body">
+            <h3 class="service-card__title">Full Detail Package</h3>
+            <p class="service-card__desc">
+              Our comprehensive package covers a thorough exterior wash &amp; polish plus a complete interior deep clean — vacuuming, shampoo, leather conditioning, and odor elimination.
+            </p>
+            <a href="tel:4028751369" class="btn btn--primary">Get a Quote &rarr;</a>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80&auto=format&fit=crop"
+              alt="Interior detailing with steam cleaning and vacuuming of car seats and carpets"
+              class="service-card__img"
+              loading="lazy"
+            />
+          </div>
+          <div class="service-card__body">
+            <h3 class="service-card__title">Interior Detail</h3>
+            <p class="service-card__desc">
+              Deep vacuum, steam cleaning, upholstery shampoo, dashboard and trim dressing, and glass cleaning — leaving the cabin fresh and immaculate.
+            </p>
+            <a href="tel:4028751369" class="btn btn--ghost">Get a Quote &rarr;</a>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1614024531302-5c5da5f2a225?w=600&q=80&auto=format&fit=crop"
+              alt="Paint correction and polishing removing swirl marks and scratches from car paint"
+              class="service-card__img"
+              loading="lazy"
+            />
+          </div>
+          <div class="service-card__body">
+            <h3 class="service-card__title">Paint Correction</h3>
+            <p class="service-card__desc">
+              Multi-stage machine polishing to eliminate swirl marks, light scratches, water spots, and oxidation — restoring a deep, mirror-like finish.
+            </p>
+            <a href="tel:4028751369" class="btn btn--ghost">Get a Quote &rarr;</a>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1616455579100-2ceaa4eb6d37?w=600&q=80&auto=format&fit=crop"
+              alt="Ceramic coating being applied to a car's paint surface for long-lasting protection"
+              class="service-card__img"
+              loading="lazy"
+            />
+          </div>
+          <div class="service-card__body">
+            <h3 class="service-card__title">Ceramic Coating</h3>
+            <p class="service-card__desc">
+              Professional-grade nano-ceramic coating that bonds to your paint, providing years of hydrophobic protection, UV resistance, and unmatched gloss.
+            </p>
+            <a href="tel:4028751369" class="btn btn--ghost">Get a Quote &rarr;</a>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1599256872237-5dcc0fbe9668?w=600&q=80&auto=format&fit=crop"
+              alt="Mobile detailing van parked at a customer's driveway providing on-site auto detailing"
+              class="service-card__img"
+              loading="lazy"
+            />
+          </div>
+          <div class="service-card__body">
+            <h3 class="service-card__title">Mobile Detailing</h3>
+            <p class="service-card__desc">
+              We come to you! Our fully equipped mobile detail unit brings showroom-quality results to your home, office, or wherever your car is parked.
+            </p>
+            <a href="tel:4028751369" class="btn btn--ghost">Get a Quote &rarr;</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHY US ===== -->
+  <section class="why-us section" id="why-us">
+    <div class="container why-us__inner">
+      <div class="why-us__media">
+        <img
+          src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&q=80&auto=format&fit=crop"
+          alt="Detailer meticulously polishing a high-end sports car in a professional detailing bay"
+          class="why-us__img"
+          loading="lazy"
+        />
+        <div class="why-us__badge-float">
+          <span class="why-us__years">10+</span>
+          <span>Years of<br/>Excellence</span>
+        </div>
+      </div>
+      <div class="why-us__content">
+        <span class="section-badge">Why Choose Us</span>
+        <h2 class="section-title">The Golden Standard in Auto Care</h2>
+        <p class="why-us__lead">
+          At Golden Auto Detailing, we treat every vehicle as if it were our own. Our passion for perfection and commitment to quality products set us apart from the rest.
+        </p>
+        <ul class="why-us__list">
+          <li class="why-us__item">
+            <div class="why-us__icon">&#10003;</div>
+            <div>
+              <strong>Premium Products Only</strong>
+              <p>We use industry-leading detailing products and professional-grade equipment on every job.</p>
+            </div>
+          </li>
+          <li class="why-us__item">
+            <div class="why-us__icon">&#10003;</div>
+            <div>
+              <strong>Certified Detailing Professionals</strong>
+              <p>Our team is trained, experienced, and dedicated to delivering flawless results every time.</p>
+            </div>
+          </li>
+          <li class="why-us__item">
+            <div class="why-us__icon">&#10003;</div>
+            <div>
+              <strong>100% Satisfaction Guaranteed</strong>
+              <p>We stand behind our work. If you're not completely satisfied, we'll make it right — no questions asked.</p>
+            </div>
+          </li>
+          <li class="why-us__item">
+            <div class="why-us__icon">&#10003;</div>
+            <div>
+              <strong>Flexible Scheduling</strong>
+              <p>We work around your schedule including weekends and same-day appointments when available.</p>
+            </div>
+          </li>
+        </ul>
+        <a href="tel:4028751369" class="btn btn--primary btn--lg">Call Us Today</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="testimonials section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Reviews</span>
+        <h2 class="section-title">What Our Customers Say</h2>
+      </div>
+      <div class="testimonials__grid">
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="testimonial-card__text">"Absolutely incredible job on my truck. The paint looks better than when I bought it. Golden Auto Detailing is the only place I trust with my vehicles."</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">JM</div>
+            <div>
+              <strong>James M.</strong>
+              <span>Full Detail Package</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="testimonial-card__text">"They came to my office and detailed my SUV while I worked. Super convenient and the results were amazing. Interior looks and smells brand new!"</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">SR</div>
+            <div>
+              <strong>Sarah R.</strong>
+              <span>Mobile Interior Detail</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="testimonial-card__text">"The ceramic coating they applied is worth every penny. Water just beads right off and the car stays clean so much longer. Highly recommend!"</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">DK</div>
+            <div>
+              <strong>Derek K.</strong>
+              <span>Ceramic Coating</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact section" id="contact">
+    <div class="container contact__inner">
+      <div class="section-header section-header--left">
+        <span class="section-badge">Get In Touch</span>
+        <h2 class="section-title">Ready for a Spotless Ride?</h2>
+        <p class="section-subtitle">Call us, send a message, or stop by. We'd love to help you get your vehicle looking its absolute best.</p>
+      </div>
+
+      <div class="contact__cards">
+        <a href="tel:4028751369" class="contact-card">
+          <div class="contact-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="28" height="28"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>
+          </div>
+          <div>
+            <strong>Phone</strong>
+            <span>(402) 875-1369</span>
+          </div>
+        </a>
+
+        <a href="mailto:info@goldenautodetailing.com" class="contact-card">
+          <div class="contact-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="28" height="28"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+          </div>
+          <div>
+            <strong>Email</strong>
+            <span>info@goldenautodetailing.com</span>
+          </div>
+        </a>
+
+        <div class="contact-card">
+          <div class="contact-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="28" height="28"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+          </div>
+          <div>
+            <strong>Location</strong>
+            <span>Serving the Greater Area</span>
+          </div>
+        </div>
+
+        <div class="contact-card">
+          <div class="contact-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="28" height="28"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z"/></svg>
+          </div>
+          <div>
+            <strong>Hours</strong>
+            <span>Mon–Sat: 8 AM – 6 PM</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact__form-wrap">
+        <h3 class="contact__form-title">Request a Free Quote</h3>
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="John Smith" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="(402) 555-0100" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" />
+          </div>
+          <div class="form-group">
+            <label for="service">Service Interested In</label>
+            <select id="service" name="service">
+              <option value="">Select a service…</option>
+              <option>Exterior Detail</option>
+              <option>Interior Detail</option>
+              <option>Full Detail Package</option>
+              <option>Paint Correction</option>
+              <option>Ceramic Coating</option>
+              <option>Mobile Detailing</option>
+              <option>Other / Not Sure</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message (optional)</label>
+            <textarea id="message" name="message" rows="4" placeholder="Tell us about your vehicle and what you need…"></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">Send Request</button>
+          <p class="form-note">Or call us directly at <a href="tel:4028751369">(402) 875-1369</a> for immediate assistance.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#hero" class="nav__logo">
+          <span class="logo-icon">&#9733;</span>
+          Golden Auto Detailing
+        </a>
+        <p>Premium auto detailing services committed to making your vehicle shine.</p>
+        <a href="tel:4028751369" class="btn btn--primary btn--sm">(402) 875-1369</a>
+      </div>
+      <div class="footer__links">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services">Exterior Detail</a></li>
+          <li><a href="#services">Interior Detail</a></li>
+          <li><a href="#services">Full Detail Package</a></li>
+          <li><a href="#services">Paint Correction</a></li>
+          <li><a href="#services">Ceramic Coating</a></li>
+          <li><a href="#services">Mobile Detailing</a></li>
+        </ul>
+      </div>
+      <div class="footer__links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#why-us">Why Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="tel:4028751369">Call Now</a></li>
+        </ul>
+      </div>
+      <div class="footer__contact">
+        <h4>Contact</h4>
+        <p><a href="tel:4028751369">(402) 875-1369</a></p>
+        <p><a href="mailto:info@goldenautodetailing.com">info@goldenautodetailing.com</a></p>
+        <p>Mon–Sat: 8 AM – 6 PM</p>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 Golden Auto Detailing. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <a href="tel:4028751369" class="cta-float" aria-label="Call Golden Auto Detailing">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="26" height="26"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
